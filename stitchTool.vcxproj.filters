@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{bffdb004-8632-4a17-be12-bd58a3509d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{beae1309-0bbd-433e-a642-4a709c64d568}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pluginMain.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="stitchNode.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="stitchCommand.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="stitchManipContainer.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="projectCurve.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stitchNode.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stitchCommand.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stitchManipContainer.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stitchMacros.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="projectCurve.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
